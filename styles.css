@@ -2,29 +2,49 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #5ae8e4;
+html{
+  font-family: 'simpsonfont';
+  font-size: 17px;
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
+body{
+  background-color: aqua;
+}
 header{
-  width: 100%;
-  height: 150px;
-  background-color: #060d33;
   display: flex;
+  width: 100%;
+  height: 10%;
+  background-color: #060d33;
   padding: 20px;
+/*   align-items: center; */
+  justify-content: space-evenly;
 }
 
+main{
+  width: 100vh;
+  background-color: aqua;
+}
 h1{
   color:  white;  
-  margin-left: 1000px;
+  margin-left: 100px;
    font-size: 100px;
-   text-align: center;
+   text-align: justify;
 
 }
 
+header .img{
+  margin-left:2px;
+}
 
 
+.Fundadores{
+  display: flex;
+  gap: 2%;
+}
 
+.Fundadores .Sebastian img{
+  width: 50px;
+}
